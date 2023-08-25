@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.BT5{
+	background-color: #F5FAFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 34px 300px;
+}
+.BT5 ul{
+	display: flex;
+	justify-content: space-between;
+	width: 40%;
+	list-style-type: none;
+	font-size: 20px
+}
+.BT5 a{
+	color:white;
+	background-color: black;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+.Blue{
+	color:#1786FA;
+	font-weight: bold;
+}
+.Content{
+	background-color: #F5FAFF;;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 170px 300px;
+}
+.Content1 {
+	width: 486px;
+}
+.Content1 h1{
+	font-family: 'Sen', sans-serif;
+	font-size: 48px;
+	padding: 5% 0%;
+	width: 446px;
+}
+.Content1 p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 18px;
+}
+.Content2{
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+}
+h1{
+	font-family: 'Sen', sans-serif;
+}
+p{
+	font-family: 'Poppins', sans-serif;
+}
+.Content2 p{
+	padding: 10px 700px;
+}
+ion-icon{
+	font-size: 30px;
+	color: white;
+	background-color:Black;
+	padding: 20px;
+	border-radius: 5px;
+}
+.Content3{
+	padding: 0px 300px;
+	display: flex;
+	justify-content: space-between;
+}
+.Content3 h1{
+	padding: 20px 0px;
+}
+.Content3 p{
+	padding: 0px 0px 40px 0px;
+	font-size: 14px;
+}
+.CT1 {
+	width: 30%;
+	text-align: center;
+	padding: 40px;
+}
+
+.CT2 {
+	width: 30%;
+	text-align: center;
+	padding: 40px;
+}
+
+.CT3 {
+	width: 30%;
+	text-align: center;
+	padding: 40px;
+}
+.Button {
+	color: #1786FA;
+	border: 1px solid #1786FA;
+	padding: 10px 20px;
+}
+
+.CT1:hover{
+	border: 1px solid #1786FA;
+}
+.CT2:hover{
+	border: 1px solid #1786FA;
+}
+.CT3:hover{
+	border: 1px solid #1786FA;
+}
+.Content4{
+	padding: 100px 300px;
+}
+.Content4 h1{
+	padding-bottom: 30px;
+}
+.Content4 p{
+	padding-bottom: 30px;
+}
+.dong{
+	display: flex;
+	justify-content: space-between;
+}
+.cot1{
+	width: 23%;
+	height: 300px;
+	background-color: aqua;
+	position: relative;
+}
+.cot11{
+	background-image: url("Image.png");
+	background-size: cover;
+}
+.cot22{
+	background-image: url("Image1.png");
+	background-size: cover;
+}
+.cot33{
+	background-image: url("Image2.png");
+	background-size: cover;
+}
+.cot44{
+	background-image: url("Image3.png");
+	background-size: cover;
+}
+.dong a{
+	background-color: white;
+	font-weight: bold;
+	padding: 10px 20px;
+	position: absolute;
+	right: 35%;
+	bottom: 0;
+}
+.cot1:hover a{
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+}
